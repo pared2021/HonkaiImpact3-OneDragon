@@ -1,0 +1,41 @@
+# 开发过程产生的临时文件
+build/
+dist/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# 用户独有的配置文件
+config/[0-9]*/
+config/one_dragon.yml
+config/env.yml
+config/custom.yml
+config/model.yml
+
+# 执行文件
+*.exe
+
+# 用户运行时产生的文件
+.log/
+.install/
+.debug/
+.conda/
+.venv/
+.runtime/
+.temp_clone/
+notice_cache/
+*.bak
+
+# IDE / 工具
+.qoder/
+.pytest_cache/
+.ruff_cache/
+
+# 第三方插件目录（保留 README）
+plugins/*
+!plugins/README.md
+
+# 需自行下载的模型文件（运行时自动下载）
+models/
+assets/models/
